@@ -1,0 +1,1 @@
+document.querySelector('.action-btn').addEventListener('click', () => { alert('Accessing mainframe...'); });
