@@ -1,0 +1,10 @@
+body { margin: 0; padding: 0; background-color: #050505; color: #fff; font-family: 'Orbitron', sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; overflow: hidden; }
+.background-grid { position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; background-image: linear-gradient(#333 1px, transparent 1px), linear-gradient(90deg, #333 1px, transparent 1px); background-size: 50px 50px; opacity: 0.2; z-index: -1; }
+.glass-container { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 20px; padding: 3rem; text-align: center; max-width: 600px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); }
+h1 { font-size: 3rem; letter-spacing: 5px; margin-bottom: 1rem; text-transform: uppercase; }
+p { font-size: 1.1rem; color: #aaa; margin-bottom: 2rem; line-height: 1.5; }
+.features { display: flex; justify-content: center; gap: 2rem; margin-bottom: 2rem; }
+.feature-box { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; color: #ccc; }
+.feature-box i { font-size: 2rem; color: #fff; }
+.action-btn { background: transparent; color: #fff; border: 2px solid #fff; padding: 1rem 2rem; font-family: 'Orbitron', sans-serif; font-size: 1rem; font-weight: bold; letter-spacing: 2px; cursor: pointer; transition: all 0.3s ease; text-transform: uppercase; }
+.action-btn:hover { background: #fff; color: #000; box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); }
